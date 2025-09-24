@@ -1,0 +1,27 @@
+{
+  "name": "shopify-dawn",
+  "version": "1.0.0",
+  "description": "[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain)\r [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind:init": "tailwindcss init",
+    "tailwind:build": "tailwindcss -i ./assets/tailwind.css -o ./assets/theme.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianreyperez/shopify-dawn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristianreyperez/shopify-dawn/issues"
+  },
+  "homepage": "https://github.com/cristianreyperez/shopify-dawn#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13"
+  }
+}
